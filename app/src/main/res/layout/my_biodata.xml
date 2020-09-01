@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/holo_blue_dark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:gravity="center_horizontal"
+        android:text="My Biodata"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="Milyardin Labana Permana"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="Date Of Birth : 11 September 2003"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/age" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:text="Phone : 085157133093"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/age"
+        android:id="@+id/phone"/>
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:text="Student Of SMKN 4 Bandung"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/phone" />
+
+</RelativeLayout>
